@@ -1,0 +1,67 @@
+*{
+  margin: 1px;
+}
+.formcont{
+  width: 80%;
+  height: 80%;
+  border: 2px solid black;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.indtask{
+  width: 40%;
+  height: 40px;
+  margin-top: 10px;
+}
+.indtask>button{
+  height: fit-content;
+}
+.taskscont{
+  height: 70%;
+  width: 40%;
+  flex-direction: column;
+  border: 2px solid black;
+}
+.taskinput{
+  margin-top: 5px;
+  height: 30%;
+  width: 40%;
+}
+.taskinput>input{
+  width: 50%;
+  height: 10%
+}
+div{
+  display: flex;
+  width: fit-content;
+}
+button{
+  width: fit-content;
+  height: 10%;
+}
+input{
+  width: 200px;
+  height: 85%;
+}
+.signin{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
+  height: 40%;
+  border: 2px solid black;
+}
+body , html, #root{
+  width: 100%;
+  height: 100%;
+}
+.App{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+}
